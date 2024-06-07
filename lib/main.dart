@@ -98,7 +98,7 @@ class _JokeState extends State<Joke> {
                   child: Text(_joke),
                 ),
                 SizedBox(height: 20.0),
-                Text('Saved Jokes:'),
+                Text('Saved :'),
                 ListView.builder(
                   shrinkWrap: true,
                   itemCount: _jokes.length,
